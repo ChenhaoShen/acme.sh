@@ -6,7 +6,6 @@
 #TECHNITIUM_API=""
 #TECHNITIUM_API_TOKEN=""
 
-
 ########  Public functions ########
 
 #Usage: dns_technitium_add   _acme-challenge.www.domain.com   "XKrxpRBosdIKFzxW_CT3KLZNf6q0HG9i01zxXp5CPBs"
@@ -44,7 +43,6 @@ dns_technitium_add() {
 dns_technitium_rm() {
   fulldomain=$1
   txtvalue=$2
-
 
   _info "Using technitium"
   _debug fulldomain "$fulldomain"
